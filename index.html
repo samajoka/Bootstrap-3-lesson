@@ -1,46 +1,52 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title></title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/custom.css">
-</head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Dseries App</title>
+
+    <!-- Custom styles for this template -->
+   <!--  <link href="sticky-footer-navbar.css" rel="stylesheet"> -->
+
+  </head>
+
 <body>
-
-<nav class="navbar navbar-inverse">
-		<a href="index.html" title="">Home</a>&nbsp; &nbsp; &nbsp;
-		<a href="about.html" title="">About</a>
-</nav>
-
-<div class="page-header">
-<h2 align="center">Tutorial on Bootstrap Version 3.x</h2>
-</div>
-
-<div align="center">
-	<img src="images/cdl.jpg" class="img-rounded" alt="">
-
-</div>
-<div class="container">
-	<div class="form-group">
+	<div class="container">
 		<div class="row">
-			<div class="col-md-5 col-md-offset-5">	
-				<form action="#" method="get" accept-charset="utf-8">
-				<label><br><input type="text" class="form-control" placeholder="Username"></label><br>
-				<label><br><input type="password" class="form-control" placeholder="Password"></label><br>
-				<button type="submit" value="submit" name="submit" class="glyphicon glyphicon-user btn btn-primary">Submit</button>
+			<div class="col-md-4 col-md-offset-4">
+				<p class="text-center"><img src="images/logo.png" alt="Logo" class="logo"></p>
+				<!-- <img src="images/logo.png" alt="Company Logo" class="logo img-center"> -->
+				<p align="center">Login to Dashboard</p>
+				<div class="panel panel-default">
+				  <div class="panel-body">
+				    <form action="dashboard.html">
+					<div class="form-group">
+					    <label for="username">Username</label><br>
+					    <input type="text" class="form-control" id="username">
+			  		</div>
+					<div class="form-group">
+					    <label for="password">Password</label><br>
+					    <input type="password" class="form-control" id="password">
+			  		</div>
+					<div>
+					    <button class="btn btn-primary"><span class="glyphicon glyphicon-user"></span> Login</button>
+					    <a href="#" class="btn btn-success pull-right"><span class="glyphicon glyphicon-plus"></span> Sign Up</a>
+			  		</div>
 				</form>
-				</form>
+				  </div>
+				</div>
+				
 			</div>
-		</dir>
+		</div>
 	</div>
-</div>
-
-	<footer class="footer">
-		&copy 2016 <span>Designed by Muffycompo Team.</span>
-</footer>
-
 </body>
+
 
 </html>
